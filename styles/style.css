@@ -1,0 +1,189 @@
+header {
+    background-color: #ffffff;
+    min-height: 90vh;
+}
+
+header .content {
+    font-size: sans-serif;
+    margin-top: 130px;
+}
+
+header .content .header-title{
+    font-size: 64px;
+}
+
+header .content .header-description{
+    font-size: 18px;
+}
+
+.navbar-nav {
+    margin-right: 20px; /* Menambahkan jarak antara navbar links dan tombol */
+}
+
+.d-flex {
+    margin-left: 20px; /* Menambahkan jarak antara navbar links dan tombol Try Now */
+}
+
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd !important; /* Warna saat hover */
+}
+
+.btn-outline-success {
+    background-color: white !important;
+    color: #55B3F0 !important;
+    border-color: white !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #55B3F0 !important;
+    color: white !important;
+}
+
+
+/* Global */
+section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* features2 */
+#features .row,
+#features2 .row {
+    row-gap: 3rem;
+}
+
+/* features */
+#features img {
+    height: 150px;
+}
+
+#features2 p {
+    word-wrap: break-word; /* Memaksa kata panjang untuk turun ke baris baru */
+    overflow-wrap: break-word; /* Alternatif untuk browser yang berbeda */
+    white-space: normal; /* Pastikan teks tidak tetap dalam satu baris */
+}
+/* gallery */
+#gallery {
+    background-color: white;
+}
+
+.btn-gallery {
+    background-color: #55B3F0 !important;
+    color: white !important;
+    width: 200px;
+}
+
+/* Accordion container */
+        .accordion-container {
+            margin-bottom: 100px;
+        }
+
+        .accordion {
+            background-color: #55B3F0;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: center;
+            outline: none;
+            transition: 0.3s;
+            font-size: 18px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .accordion.active, .accordion:hover {
+            background-color: #2CAAFD;
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+
+        .panel button {
+            background-color: #55B3F0 !important;
+            color: white !important;
+            width: 200px;
+        }
+
+        .panel p {
+            padding: 15px 0;
+            margin: 0;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .accordion {
+                font-size: 16px;
+                padding: 15px;
+            }
+            .panel p {
+                padding: 10px 0;
+            }
+        }
+
+/* footer*/
+#footer {
+    background-color: #55B3F0;
+}
+
+#footer .sosmed-icon {
+    height: 20px;
+    width: 20px;
+}
+
+#footer a {
+    color: white !important;
+}
+
+#footer a:hover, nav .links a:hover {
+    color: darkorange;
+}
+
+footer {
+    background-color: #002533;
+}
+
+#backtotop {
+    z-index: 99;
+    bottom: 150px;
+    right: 30px;
+}
+
+#massanger {
+    z-index: 99;
+    bottom: 100px;
+    right: 30px;
+}
+
+/* dekstop */
+@media (min-width: 992px) {
+    /* features2 */
+    /*#features2 img {
+        height: auto; 
+        width: 100%;
+    }*/
+
+    #features2 .detail {
+        background-color: salmon;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) { /* Mulai dari layar lg ke atas */
+    .custom-img {
+        width: 50%; /* Atur lebar menjadi 50% */
+    }
+}
